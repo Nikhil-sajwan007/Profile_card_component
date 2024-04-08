@@ -28,6 +28,13 @@ body {
 
 
 .main{
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+}
+
+
+.cover{
 
     width: 15rem;
    background-image: url(./images/bg-pattern-card.svg);
@@ -35,9 +42,7 @@ body {
     height: 30vh;
     top: 50%;
     left: 50%;
-    position: absolute;
-    transform: translate(-50%,-50%);
-
+    
 
 }
 
